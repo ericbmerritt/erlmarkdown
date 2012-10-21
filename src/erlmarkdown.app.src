@@ -1,4 +1,6 @@
 {application, erlmarkdown,
  [{description, "An implementation of markdown written in Erlang"},
   {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
   {applications, [kernel, stdlib]}]}.
