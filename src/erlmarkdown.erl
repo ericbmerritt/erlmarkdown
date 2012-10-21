@@ -7,7 +7,7 @@
 %%% Created : 10 Sep 2009 by gordonguthrie@backawinner.gg
 %%%-------------------------------------------------------------------
 
--module(markdown).
+-module(erlmarkdown).
 
 -export([conv/1,
          conv_utf8/1,
@@ -1282,4 +1282,4 @@ make_img_tag(Url, Acc, Title) ->
 %%%
 %%%-------------------------------------------------------------------
 
--include("markdown_tests.hrl").
+-include("erlmarkdown_tests.hrl").
